@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 
-with open("../data/raw/raw_flights.json", encoding="utf-8") as f:
+with open("..c", encoding="utf-8") as f:
     data = json.load(f)
 
 df = pd.DataFrame(data["flights"])
