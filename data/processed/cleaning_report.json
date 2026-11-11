@@ -1,0 +1,27 @@
+[
+  {
+    "step": "Keep only Henri Coanda flights",
+    "removed": 0,
+    "remaining": 62652
+  },
+  {
+    "step": "Remove duplicate flights",
+    "removed": 0,
+    "remaining": 62652
+  },
+  {
+    "step": "Set aside canceled flights",
+    "removed": 349,
+    "remaining": 62303
+  },
+  {
+    "step": "Drop flights with np final departure",
+    "removed": 11628,
+    "remaining": 50675
+  },
+  {
+    "step": "Drop rows with unreadable times",
+    "removed": 0,
+    "remaining": 50675
+  }
+]
